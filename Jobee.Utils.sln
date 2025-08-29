@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CADA4524-F8F1-41F7-BFA9-C056F57782A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobee.Utils.Api", "src\Jobee.Utils.Api\Jobee.Utils.Api.csproj", "{7E445E3B-32F6-4A1E-BCDD-F1BCDDDC4342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobee.Utils.Contracts", "src\Jobee.Utils.Contracts\Jobee.Utils.Contracts.csproj", "{2DD6F329-8A90-4A2C-BF78-BFEC19026C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobee.Utils.Application", "src\Jobee.Utils.Application\Jobee.Utils.Application.csproj", "{6A315A37-3366-4621-95BD-93041427EBEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{121F638A-E4C4-446C-BCC2-A7C101868A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jobee.Utils.Tests", "tests\Jobee.Utils.Tests\Jobee.Utils.Tests.csproj", "{F17BEBD1-A142-4114-BAE2-497214F12A3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E445E3B-32F6-4A1E-BCDD-F1BCDDDC4342} = {CADA4524-F8F1-41F7-BFA9-C056F57782A2}
+		{2DD6F329-8A90-4A2C-BF78-BFEC19026C94} = {CADA4524-F8F1-41F7-BFA9-C056F57782A2}
+		{6A315A37-3366-4621-95BD-93041427EBEF} = {CADA4524-F8F1-41F7-BFA9-C056F57782A2}
+		{F17BEBD1-A142-4114-BAE2-497214F12A3F} = {121F638A-E4C4-446C-BCC2-A7C101868A1E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E445E3B-32F6-4A1E-BCDD-F1BCDDDC4342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E445E3B-32F6-4A1E-BCDD-F1BCDDDC4342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E445E3B-32F6-4A1E-BCDD-F1BCDDDC4342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E445E3B-32F6-4A1E-BCDD-F1BCDDDC4342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD6F329-8A90-4A2C-BF78-BFEC19026C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD6F329-8A90-4A2C-BF78-BFEC19026C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD6F329-8A90-4A2C-BF78-BFEC19026C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD6F329-8A90-4A2C-BF78-BFEC19026C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A315A37-3366-4621-95BD-93041427EBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A315A37-3366-4621-95BD-93041427EBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A315A37-3366-4621-95BD-93041427EBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A315A37-3366-4621-95BD-93041427EBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17BEBD1-A142-4114-BAE2-497214F12A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17BEBD1-A142-4114-BAE2-497214F12A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17BEBD1-A142-4114-BAE2-497214F12A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17BEBD1-A142-4114-BAE2-497214F12A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
